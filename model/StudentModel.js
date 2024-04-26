@@ -1,27 +1,45 @@
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/sequlize');
+const sequelize = require('../config/Sequlize');
 
-const student = sequelize.define('student', {
+const student = sequelize.define('student-detail', {
 
-  Roll_No:{
+  roll_no:{
     type:DataTypes.STRING,
     allowNull: false,
   },
-  NAME: {
+  name: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  EMAIL: {
+  email: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  DOB:{
+  password:{
+    type:DataTypes.STRING,
+    allowNull: false,
+  },
+  dob:{
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  contact:{
+    type: DataTypes.STRING,
+    allowNull:false,
+  },
+  address:{
+    type: DataTypes.STRING,
+    allowNull:false,
+  },
+  otp:{
+    type:DataTypes.STRING,
+    allowNull:true,
+  },
+  timeexpire:{
+    type:DataTypes.DATE,
+    allowNull:true,
   }
 });
 
+
 module.exports = student;
-
-
-

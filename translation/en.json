@@ -1,0 +1,12 @@
+{
+    "message": "Welcome Our HomePage!",
+    "student_create_message":"Student Registered Successfully",
+    "student_login":"Student Login Successfully",
+    "student_detail":"Student Detail",
+    "student_update":"Student Details Updated",
+    "student_delete":"Student deleted successfully",
+    "forgot_Password":"Link of password change is Sent Successfully",
+    "forgot_password_get_link":"link of change password get successfully",
+    "Password_Change":"Password  updated successfully",
+    "send_otp":"OTP Send Successfully"
+}
